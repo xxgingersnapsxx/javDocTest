@@ -19,5 +19,26 @@ package kr.or.ddit.basic;
  *
  */
 public interface JavaDocTest {
+	/**
+	 * method name : methodTest<br>
+	 * 기능 : 반환값이 없는 메서드<br>
+	 * @param a 첫번째 매개변수 (정수형)
+	 * @param b 두번째 매개변수 (정수형)
+	 */
+	public void methodTest(int a, int b);
+	
+	/**
+	 * method name : methodAdd<br>
+	 * 기능 : 정수형 데이터 2개를 인수로 받아서 합계를 반환하는 메서드<br>
+	 * @param x 합계 계산에 사용할 첫번째 정수형 데이터
+	 * @param y 합계 계산에 사용할 두번째 정수형 데이터
+	 * @return 두 정수의 합계가 반환된다.
+	 */
+	public int methodAdd(int x, int y);
 
+	/**
+	 * method name : methodSub<br>
+	 * 기능 : 반환값과 매개변수가 없는 메소드
+	 */
+	public void methodSub();
 }
